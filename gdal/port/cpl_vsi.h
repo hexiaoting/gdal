@@ -313,6 +313,7 @@ GIntBig CPL_DLL VSIGetDiskFreeSpace(const char *pszDirname);
 /* ==================================================================== */
 /*      Install special file access handlers.                           */
 /* ==================================================================== */
+void CPL_DLL VSIInstallGPOSSFileHandler(void);
 void CPL_DLL VSIInstallMemFileHandler(void);
 /*! @cond Doxygen_Suppress */
 void CPL_DLL VSIInstallLargeFileHandler(void);

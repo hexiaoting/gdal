@@ -1857,6 +1857,7 @@ VSIFileManager *VSIFileManager::Get()
         VSIInstallLargeFileHandler();
         VSIInstallSubFileHandler();
         VSIInstallMemFileHandler();
+        VSIInstallGPOSSFileHandler();
 #ifdef HAVE_LIBZ
         VSIInstallGZipFileHandler();
         VSIInstallZipFileHandler();
